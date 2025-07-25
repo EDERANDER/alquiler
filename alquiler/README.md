@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# ALQUILER DE AUTOS - PROYECTO DE DESARROLLO DE PLATAFORMAS I
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción del Proyecto
 
-## Available Scripts
+Este proyecto es una aplicación integral para la gestión de alquiler de vehículos, diseñada para optimizar y automatizar los procesos relacionados con el arrendamiento de automóviles. Desarrollado como parte del curso de Desarrollo de Plataformas I, busca proporcionar una solución robusta y fácil de usar para la administración de alquileres, la flota de vehículos, la información de clientes y empleados, y el seguimiento de pagos.
 
-In the project directory, you can run:
+La aplicación se compone de dos módulos principales: un frontend intuitivo y reactivo construido con React, y un potente backend basado en Node.js que maneja la lógica de negocio y la persistencia de datos.
 
-### `npm start`
+## Integrantes del Equipo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*   EDER ANDER QUISPE BRAVO
+*   SHAIN JERSON BENAVENTE LEON
+*   HERNAN CHAMBILLA CHIPANA
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Características Principales
 
-### `npm test`
+El sistema ofrece las siguientes funcionalidades clave:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*   **Gestión de Alquileres:** Registro, seguimiento y finalización de contratos de alquiler, incluyendo fechas, vehículos asignados y clientes.
+*   **Gestión de Autos:** Inventario detallado de la flota de vehículos, con información sobre disponibilidad, estado, modelo, marca y características.
+*   **Gestión de Clientes:** Base de datos completa de clientes, incluyendo datos personales, historial de alquileres y preferencias.
+*   **Gestión de Empleados:** Administración de la información del personal, roles y permisos dentro del sistema.
+*   **Gestión de Pagos:** Registro y seguimiento de transacciones de pago, incluyendo métodos de pago y estados.
+*   **Dashboard Interactivo:** Un panel de control que proporciona una visión general y estadísticas clave sobre el estado del negocio.
 
-### `npm run build`
+## Tecnologías Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
+*   **React.js:** Biblioteca de JavaScript para construir interfaces de usuario interactivas.
+*   **HTML5/CSS3:** Estructura y estilo de la aplicación.
+*   **JavaScript (ES6+):** Lógica del lado del cliente.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
+*   **Node.js:** Entorno de ejecución de JavaScript para el desarrollo del servidor.
+*   **Express.js:** Framework web para Node.js, utilizado para construir APIs RESTful.
+*   **Base de Datos (a definir/implementar):** Sistema de gestión de bases de datos para almacenar la información del proyecto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Estructura del Proyecto
 
-### `npm run eject`
+El repositorio se organiza en dos directorios principales:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+*   `alquiler/`: Contiene todo el código fuente del frontend (aplicación React).
+*   `backend/`: Contiene el código fuente del servidor (aplicación Node.js/Express).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
